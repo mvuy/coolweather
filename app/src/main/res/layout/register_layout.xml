@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="江湖人称：" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:hint="给自己一个霸气的称号" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="御用密码：" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="确认密码：" />
+
+        <EditText
+            android:id="@+id/password_1"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/success"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="BOOM 加入花名册" />
+
+
+    </TableRow>
+
+</TableLayout>
